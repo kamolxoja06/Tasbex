@@ -1,0 +1,55 @@
+.wrap{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+
+.ekran{
+    width: 201px;
+    height: 100px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 95px;
+    left: 152px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ekran > h1{
+    font-size: 75px;
+}
+
+.res{
+    width: 40px;
+    height: 40px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    position: absolute;
+    top: 41%;
+    right: 30%;
+}
+.qosh{
+    width: 150px;
+    height: 150px;
+    background-color: gainsboro;
+    border-radius:50%;
+    position: absolute;
+    bottom: 93px;
+    left: 178px;
+}
+
+.kam{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius:50%;
+    position: absolute;
+    bottom: 251px;
+    left: 161px;
+}
+
